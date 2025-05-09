@@ -1,0 +1,13 @@
+[project]
+dependencies = ["torch>=1.10", "gpytorch>=1.6",]
+description = "Finite-size scaling tools"
+name = "fss-tools"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.7"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.16.2",
+    "matplotlib>=3.5.3",
+]
